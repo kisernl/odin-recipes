@@ -1,0 +1,30 @@
+h1 {
+    color: rgb(153, 153, 208);
+}
+
+.dark {
+    color: #d1efef;
+    background-color: rgb(77, 66, 66);
+}
+a {
+    color: rgb(43, 101, 101);
+}
+
+.light,
+.ordered {
+    background-color: #d1efef;
+    color:rgb(77, 66, 66);
+}
+
+#home {
+    background-color: #d1efef;
+}
+/* How you actually style it is completely open, but you 
+should use the external CSS method (for this practice 
+and moving forward). You should also try to use several 
+of the properties mentioned in the previous lesson (color, 
+background color, typography properties, etc). Take some 
+time to play around with the various properties to get a 
+feel for what they do. For now, don’t worry at all about making 
+it look good. This is just to practice and get used to writing CSS, 
+not to make something to show off on your resume.
