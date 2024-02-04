@@ -6,6 +6,7 @@ h1 {
     color: #d1efef;
     background-color: rgb(77, 66, 66);
 }
+
 a {
     color: rgb(43, 101, 101);
 }
@@ -18,7 +19,36 @@ a {
 
 #home {
     background-color: #d1efef;
+    width:100%;
+    text-align: center;
+    margin: 0 auto;
 }
+
+.center {
+    width:75%;
+    text-align: center;
+    margin: 0 auto; 
+}
+
+.ordered,
+.ingredients,
+.description {
+    width:50%;
+    text-align: left;
+    margin: 0 auto; 
+}
+
+.title {
+    width: 75%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+button {
+    display: inline-block;
+    margin: 0 auto;
+    padding: 8px 24px;
+  }
 /* How you actually style it is completely open, but you 
 should use the external CSS method (for this practice 
 and moving forward). You should also try to use several 
