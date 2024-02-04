@@ -1,5 +1,7 @@
 h1 {
     color: rgb(153, 153, 208);
+    border: 6px solid #bac1c5;
+    padding: auto 6px;
 }
 
 .dark {
@@ -8,7 +10,7 @@ h1 {
 }
 
 a {
-    color: rgb(43, 101, 101);
+    color: rgb(66, 134, 134);
 }
 
 .light,
@@ -44,10 +46,24 @@ a {
     margin: 0 auto;
 }
 
+img {
+    padding: 20px;
+}
+
 button {
-    display: inline-block;
+   /*  display: inline-block;
     margin: 0 auto;
-    padding: 8px 24px;
+    padding: 8px 24px; */
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border: 6px solid #bac1c5;
+    color: #3498db;
+    background-color: rgb(178, 178, 203);
   }
 /* How you actually style it is completely open, but you 
 should use the external CSS method (for this practice 
